@@ -1,0 +1,431 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", Roboto, Sogoe UI, Helvetica Neue;
+  overflow-x: hidden !important;
+  color: rgba(88, 86, 86, 1) !important;
+  padding-top: 40px;
+}
+
+.container h3:before {
+  content: "";
+  display: block;
+}
+a:hover {
+  color: #9a0f73 /*!important*/;
+  text-decoration: none;
+}
+
+.navbar-nav,
+.navbar-brand,
+.sr-only {
+  color: rgba(88, 86, 86, 1) !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-weight: bold;
+  margin: 0 5px !important;
+}
+
+.navbar-brand:hover {
+  color: #9a0f73 !important;
+}
+
+.nav-item a:hover,
+.nav-item .active {
+  color: #9a0f73 !important;
+  border-bottom: 2px solid #9a0f73;
+  padding-bottom: 3px;
+}
+
+#homepage {
+  width: 100%;
+  height: 580px;
+  left: 0px;
+  background: url(../img/bg-homepage.png);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+
+.content-homepage h4 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 35px;
+  color: #ffffff;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  font-family: "Ubuntu";
+}
+
+.content-homepage h2 {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 35px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: "Ubuntu";
+}
+
+.content-homepage p {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: "Ubuntu";
+}
+
+.button-know-more a {
+  padding-top: 4px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  width: 120px;
+  height: 32px;
+  font-family: "Ubuntu", san serif;
+}
+
+.btn {
+  border: 0px solid #ffffff;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 7px 0px;
+  color: #480a99;
+  display: inline-block;
+  text-align: center;
+  transition: 300ms;
+}
+
+.btn:hover {
+  opacity: 1;
+  transform: translateY(-8px);
+}
+
+.myphoto img {
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.button-download-cv a {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  width: 158px;
+  height: 40px;
+  margin-right: auto;
+  right: 0;
+  font-family: "Ubuntu", san serif;
+  background: linear-gradient(
+    222.15deg,
+    rgba(56, 8, 158, 0.99) 0.44%,
+    #bd1164 81.05%
+  );
+}
+
+.btn-download {
+  border: 0px solid #ffffff;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 8px 0px;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  transition: 300ms;
+}
+
+.btn-download:hover {
+  color: white !important;
+  opacity: 1;
+  transform: translateY(-8px);
+}
+
+.progress-bar {
+  background-color: #a00f70 !important;
+}
+
+.container-education {
+  width: 350px;
+  height: 380px;
+  background-image: url(../img/bg-logo-umm.png);
+  background-repeat: no-repeat;
+  background-size: 350px 380px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+.content-education img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 97px;
+  position: relative;
+}
+
+.info-education {
+  display: grid;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 20px 0px;
+  margin-left: 0;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  position: relative;
+}
+
+.carousel-indicators .active {
+  background-color: #9a0f73 !important;
+}
+
+.experience i.fas {
+  color: #9a0f73 !important;
+}
+
+.title-service h3 {
+  margin-top: 115px;
+  color: white;
+}
+
+.services {
+  width: 100%;
+  background-size: 1350px 650px;
+  display: flex;
+}
+
+.card1 {
+  background-color: #840e7e !important;
+  margin-top: 15px;
+  height: 250px;
+  transition: transform 0.3s;
+}
+
+.card1:hover {
+  background-color: #40068c !important;
+  margin-top: 15px;
+  transform: scale(1.1);
+}
+
+.content-myservices {
+  float: left;
+  width: 50%;
+}
+
+.container-myservices1 {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #840e7e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  color: #ffffff;
+  width: 370px;
+  height: 225px;
+  text-align: left;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  top: 30%;
+  left: 20%;
+}
+
+.container-myservices2 {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #40068c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  color: #ffffff;
+  width: 370px;
+  height: 225px;
+  text-align: left;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  top: 30%;
+  right: 20%;
+}
+
+.icon-myservices {
+  margin: 0 45px;
+  padding-top: 25px;
+}
+
+.info-content-myservices {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  margin: 0 50px;
+}
+
+.info-content-myservices h4 {
+  margin-top: 5px;
+}
+
+.portfolio-card {
+  transition: transform 0.3s;
+}
+.portfolio-card:hover {
+  transform: scale(1.1);
+}
+
+.portfolio {
+  margin-top: -35px;
+}
+
+.choose-port {
+  width: 100%;
+  margin: auto;
+}
+
+.choose-port ul {
+  margin: auto;
+  width: 30%;
+  list-style: none;
+}
+.choose-port ul li a {
+  margin: auto 0px;
+  width: 30%;
+  color: #9a0f73;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+
+.choose-port ul li a:hover {
+  border: 2px solid #9a0f73;
+  border-radius: 3px;
+  width: 30%;
+}
+
+.btn-port {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Ubuntu", san serif;
+  color: #870e7c;
+}
+
+.btn-port:hover {
+  color: #b21069;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #b21069;
+}
+
+.btn-primary {
+  width: 100px;
+  color: #fff;
+  background-color: #9a0f73;
+  border-color: #ffff;
+}
+
+.btn-primary a:hover {
+  background-color: #9a0f73 !important;
+  color: #ffff !important;
+}
+
+.btn-primary a:active {
+  background-color: #9a0f73 !important;
+  color: #ffff !important;
+  border-color: rgba(90, 11, 83, 0.85) !important;
+}
+.alamat {
+  width: 100%;
+  background: linear-gradient(
+    238.38deg,
+    rgba(56, 8, 158, 0.99) 0.44%,
+    #bd1164 81.05%
+  );
+}
+
+.line-contact {
+  color: rgba(88, 86, 86, 1);
+  font-family: "Ubuntu";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  left: 45%;
+}
+
+.line-contact i {
+  font-size: 22px;
+  color: #a00f70;
+  text-align: center;
+}
+
+.fa-map-marker-alt {
+  margin: 9px 12px;
+}
+
+.fa-phone {
+  margin: 9px 9px;
+}
+
+.fa-envelope {
+  margin: 9px 9px;
+}
+
+.contacts h4,
+.contacts p {
+  color: #fff;
+  width: 200px;
+  margin: 5px 35px;
+  text-align: center;
+}
+
+.footer-portfolio {
+  width: 100%;
+  height: 90px;
+  background: white;
+}
+
+.footer1 {
+  color: rgba(88, 86, 86, 1);
+  text-align: center;
+}
+
+.fa-copyright {
+  margin: 20px auto;
+  font-size: 14px;
+}
+
+.copyright {
+  font-family: "Ubuntu";
+}
+
+.socmed a i:hover {
+  color: #9a0f73;
+  border-bottom: 3px solid #9a0f73;
+}
+
+.socmed a i:active {
+  border-bottom: 3px solid #9a0f73;
+}
+
+.socmed a i {
+  padding-bottom: 10px;
+  color: rgba(88, 86, 86, 1);
+  font-size: 24px;
+  text-decoration: none;
+}
