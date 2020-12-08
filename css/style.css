@@ -7,16 +7,20 @@ body {
   font-family: "Ubuntu", Roboto, Sogoe UI, Helvetica Neue;
   overflow-x: hidden !important;
   color: rgba(88, 86, 86, 1) !important;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .container h3:before {
   content: "";
   display: block;
 }
-a:hover {
-  color: #9a0f73 /*!important*/;
-  text-decoration: none;
+a {
+  /* color: #9a0f73 !important; */
+  text-decoration: none !important;
+}
+
+.dropdown-menu a:focus {
+  background-color: rgb(245, 243, 243) !important;
 }
 
 .navbar-nav,
@@ -91,6 +95,10 @@ a:hover {
   width: 120px;
   height: 32px;
   font-family: "Ubuntu", san serif;
+}
+
+.button-know-more a:hover {
+  color: #870e7c !important;
 }
 
 .btn {
