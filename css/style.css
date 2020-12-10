@@ -1,5 +1,6 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   content: "";
   display: block;
 }
+
 a {
   /* color: #9a0f73 !important; */
   text-decoration: none !important;
@@ -33,7 +35,7 @@ a {
 
 .nav-item {
   font-weight: bold;
-  margin: 0 5px !important;
+  margin: 0 !important;
 }
 
 .navbar-brand:hover {
@@ -560,4 +562,18 @@ a.lightbox-close:after {
   color: rgba(88, 86, 86, 1);
   font-size: 24px;
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  #sertifikat .carousel-inner img {
+    width: 22em !important;
+  }
+
+  .lightbox-target {
+    display: none !important;
+  }
+
+  #about img {
+    width: 20em !important;
+  }
 }
