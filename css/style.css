@@ -548,13 +548,9 @@ a.lightbox-close:after {
   font-family: "Ubuntu";
 }
 
-.socmed a i:hover {
-  color: #9a0f73;
-  border-bottom: 3px solid #9a0f73;
-}
-
+.socmed a i:hover,
 .socmed a i:active {
-  border-bottom: 3px solid #9a0f73;
+  color: #9a0f73;
 }
 
 .socmed a i {
