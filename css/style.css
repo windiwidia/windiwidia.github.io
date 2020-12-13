@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  /* color: #9a0f73 !important; */
+  color: #9a0f73 !important;
   text-decoration: none !important;
 }
 
@@ -30,12 +30,21 @@ a {
 .navbar-brand,
 .sr-only {
   color: rgba(88, 86, 86, 1) !important;
-  font-weight: bold;
+  /* font-weight: bold !important; */
 }
+
+.dropdown-item {
+  background-color: white !important;
+}
+
+/* .dropdown-down a .active {
+  background-color: rgb(245, 243, 243) !important;
+  font-weight: bold !important;
+} */
 
 .nav-item {
   font-weight: bold;
-  margin: 0 !important;
+  margin: 5px !important;
 }
 
 .navbar-brand:hover {
@@ -44,9 +53,8 @@ a {
 
 .nav-item a:hover,
 .nav-item .active {
-  color: #9a0f73 !important;
-  border-bottom: 2px solid #9a0f73;
-  padding-bottom: 3px;
+  color: #da70bc !important;
+  border-bottom: 2px solid #da70bc;
 }
 
 #homepage {
