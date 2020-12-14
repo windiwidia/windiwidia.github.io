@@ -405,6 +405,26 @@ a.lightbox-close:after {
   margin-top: 5px;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: #870e7c;
+}
+
+.gallery > div {
+  padding: 0 4px !important;
+}
+
+.gallery img {
+  vertical-align: middle;
+}
+
+.illustration img {
+  border: 1px solid #ddd !important;
+  padding: 5px;
+  position: relative;
+}
+
 .portfolio-card {
   transition: transform 0.3s;
 }
