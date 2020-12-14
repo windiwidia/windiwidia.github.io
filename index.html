@@ -290,48 +290,76 @@
   </section>
   <!-- End Service -->
 
-  <!-- Portfolio -->
-  <section id="portfolio">
+
+  <section id="portofolio">
     <div class="container pt-5 pb-5">
       <div class="row  mt-5">
         <div class="col text-center" >
           <h3>Portfolio</h3>
         </div>
       </div>
-      <div class="row portfolio mb-5">
-        <div class="col-md-4">
-          <div class="card portfolio-card" style="height: 350px;">
-            <img class="card-img-top" src="img/web-travel.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Travel Website</h5>
-                <p class="card-text text-justify">Website untuk sebuah travel wisata daerah.</p>
-                  <a href="#" class="card-link">Link</a> 
-                  <a href="#draft1" class="card-link">Draft</a>
+      <div class="row">
+          <div class="col-12 col-md-8 col-lg-12">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#website" role="tab" aria-controls="pills-website" aria-selected="true">Website</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#design" role="tab" aria-controls="pills-design" aria-selected="false">Design Website</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#illustration" role="tab" aria-controls="pills-illustration" aria-selected="false">Illustration</a>
+              </li>
+            </ul>
+            <div class="tab-content mt-3">
+            <div class="tab-pane fade show active" id="website" role="tabpanel" aria-labelledby="website-tab">
+              <div class="row portfolio mb-5">
+                <div class="col-md-4">
+                  <div class="card portfolio-card" style="height: 350px;">
+                    <img class="card-img-top" src="img/web-travel.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Travel Website</h5>
+                        <p class="card-text text-justify">Website untuk sebuah travel wisata daerah.</p>
+                          <a href="#" class="card-link">Link</a> 
+                          <a href="#draft1" class="card-link">Draft</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card portfolio-card" style="height: 350px;">
+                    <img class="card-img-top" src="img/calculator.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Kalkulator Web</h5>
+                        <p class="card-text text-justify">Aplikasi kalkulator untuk website, dibuat menggunakan bahasa Javascript</p>
+                        <a href="https://windiwidia.github.io/calculator/" class="card-link">Link</a>
+                        <a href="#draft2" class="card-link">Draft</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card portfolio-card" style="height: 350px;">
+                    <img class="card-img-top" src="img/foodyummy1.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Yummy Food</h5>
+                        <p class="card-text text-justify">Responsive website design untuk sebuah restaurant dengan tema light</p>
+                        <a href="https://windiwidia.github.io/food-yumm/" class="card-link">Link</a>
+                        <a href="#draft3" class="card-link">Draft</a>
+                      </div>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="profile-tab">
+              The designs are generally medium-sized slender birds. Most species live in trees, though a sizeable minority are ground-dwelling. The family has a cosmopolitan distribution, with the majority of species being tropical.
+            </div>
+            <div class="tab-pane fade" id="illustration" role="tabpanel" aria-labelledby="illustration-tab">
+              The common illustration is farmed around the world, particularly for its feathers, which are decorative and are also used as feather dusters. Its skin is used for leather products and its meat is marketed commercially, with its leanness a common marketing point.
+            </div>
+            <div class="tab-pane fade" id="tropicbird" role="tabpanel" aria-labelledby="tropicbird-tab">
+              Tropicbirds range in size from 76 cm to 102 cm in length and 94 cm to 112 cm in wingspan. Their plumage is predominantly white, with elongated central tail feathers. The three species have different combinations of black markings on the face, back, and wings. Their bills are large, powerful and slightly decurved. 
+            </div>
+          </div>        
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card portfolio-card" style="height: 350px;">
-            <img class="card-img-top" src="img/calculator.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Kalkulator Web</h5>
-                <p class="card-text text-justify">Aplikasi kalkulator untuk website, dibuat menggunakan bahasa Javascript</p>
-                <a href="https://windiwidia.github.io/calculator/" class="card-link">Link</a>
-                <a href="#draft2" class="card-link">Draft</a>
-              </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card portfolio-card" style="height: 350px;">
-            <img class="card-img-top" src="img/foodyummy1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Yummy Food</h5>
-                <p class="card-text text-justify">Responsive website design untuk sebuah restaurant dengan tema light</p>
-                <a href="https://windiwidia.github.io/food-yumm/" class="card-link">Link</a>
-                <a href="#draft3" class="card-link">Draft</a>
-              </div>
-          </div>
-        </div>
       </div>
     </div>
     <div class="lightbox-target" id="draft1">
@@ -346,6 +374,19 @@
       <img src="img/YummyFood.png" alt="">
       <a class="lightbox-close" href="#portfolio"></a>
     </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <div class="container pt-5 pb-5">
+      <div class="row  mt-5">
+        <div class="col text-center" >
+          <h3>Portfolio</h3>
+        </div>
+      </div>
+      
+    </div>
+    
   </section>
   <!-- End Portfolio -->
 
