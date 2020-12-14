@@ -412,10 +412,11 @@ a.lightbox-close:after {
 }
 
 .gallery > div {
-  padding: 0 4px !important;
+  padding: 0 5px !important;
 }
 
 .gallery img {
+  margin-top: 10px;
   vertical-align: middle;
 }
 
